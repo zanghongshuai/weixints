@@ -14,7 +14,7 @@ import zk.util.Pusher;
 @Component
 public class JobWorker {
     //要推送的用户openid
-    private static String openId = "gh_53cbb5ac32cb";
+    private static String openId = "o8cwa60qwLNeyNsRZYFahzZpW5UQ";
 
     @Scheduled(cron = "0 30 7 * * ?")
     public void goodMorning(){
